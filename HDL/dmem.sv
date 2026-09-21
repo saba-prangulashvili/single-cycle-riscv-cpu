@@ -2,7 +2,7 @@ module dmem(
     input logic clk,
     input logic[31:0] adr,
     input logic we,
-    input logic wd,
+    input logic[31:0] wd,
     output logic[31:0] rd
 );
 
@@ -11,5 +11,5 @@ module dmem(
 
     always_ff @(posedge clk)
         if(we)
-            ram[adr[31:2]] <= wd;
+            mem[adr[31:2]] <= wd;
 endmodule
