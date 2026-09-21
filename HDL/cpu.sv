@@ -5,7 +5,7 @@ module cpu(
     input logic[31:0] mem_data,
 
     output logic mem_we,
-    output logic[31:0] reg_2,
+    output logic[31:0] reg2,
     output logic[31:0] alu_result,
     output logic[31:0] pc
 );
@@ -58,7 +58,7 @@ module cpu(
 
         .alu_mode(alu_mode),
 
-        .reg_2(reg_2),
+        .reg2(reg2),
         .alu_result(alu_result),
         .alu_zero(alu_zero),
         .pc(pc)
