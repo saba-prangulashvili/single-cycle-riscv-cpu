@@ -5,6 +5,7 @@ module cpu(
     input logic[31:0] mem_data,
 
     output logic mem_we,
+    output logic mem_re,
     output logic[31:0] reg2,
     output logic[31:0] alu_result,
     output logic[31:0] pc
@@ -20,6 +21,7 @@ module cpu(
         .imm_src(imm_src),
         .alu_src(alu_src),
         .mem_we(mem_we),
+        .mem_re(mem_re),
         .result_src(result_src),
         .branch(branch),
         .alu_op(alu_op),
@@ -29,7 +31,8 @@ module cpu(
 
     //----------------------------------------
     logic alu_zero;
-    logic pc_src = (branch & alu_zero) | jump;
+    logic pc_src;
+    assign pc_src = (branch & alu_zero) | jump;
 
     //----------------------------------------
     logic[2:0] alu_mode;
