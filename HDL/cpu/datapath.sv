@@ -67,9 +67,10 @@ module datapath(
         .q(pc)
     );
 
-    logic[31:0] pc_plus_4 = pc + 32'd4;
-
-    logic[31:0] pc_target = pc + imm_ext;
+    logic[31:0] pc_plus_4;
+    assign pc_plus_4 = pc + 32'd4;
+    logic[31:0] pc_target;
+    assign pc_target = pc + imm_ext;
 
     logic[31:0] pc_next;
     mux3 pc_mux(
