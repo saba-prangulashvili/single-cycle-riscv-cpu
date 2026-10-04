@@ -1,0 +1,6 @@
+
+State Machine - |top|keyboard:kb|ps2rx:rx|state_reg
+Name state_reg.IDLE state_reg.DONE state_reg.RX 
+state_reg.IDLE 0 0 0 
+state_reg.RX 1 0 1 
+state_reg.DONE 1 1 0 
