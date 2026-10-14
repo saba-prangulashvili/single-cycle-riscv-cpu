@@ -25,3 +25,12 @@ clear_screen:
             lw x1 0(x2)     # pop ra
             addi x2, x2, 4
             jalr x0, 0(x1)
+
+
+# input x10 = cursor offset
+# output x10 = 1 if (cursor offset < 2400) else 0
+check_bouds:
+    addi x6, x0, 1200
+    addi x6, x6, 1200
+    slt x10, x10, x6
+    jalr x0, 0(x1)  # return
