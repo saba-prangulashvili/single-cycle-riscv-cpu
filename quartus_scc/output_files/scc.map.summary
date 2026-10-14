@@ -1,10 +1,10 @@
-Analysis & Synthesis Status : Successful - Sun Oct  4 18:56:57 2026
+Analysis & Synthesis Status : Successful - Wed Oct 14 17:07:29 2026
 Quartus Prime Version : 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
 Revision Name : scc
 Top-level Entity Name : top
 Family : MAX 10
-Total logic elements : 39,290
-    Total combinational functions : 21,863
+Total logic elements : 38,213
+    Total combinational functions : 20,786
     Dedicated logic registers : 19,982
 Total registers : 19982
 Total pins : 19

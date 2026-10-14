@@ -1,12 +1,12 @@
-Fitter Status : Successful - Sun Oct  4 19:04:15 2026
+Fitter Status : Successful - Wed Oct 14 17:14:16 2026
 Quartus Prime Version : 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
 Revision Name : scc
 Top-level Entity Name : top
 Family : MAX 10
 Device : 10M50DAF484C7G
 Timing Models : Final
-Total logic elements : 30,802 / 49,760 ( 62 % )
-    Total combinational functions : 21,864 / 49,760 ( 44 % )
+Total logic elements : 29,829 / 49,760 ( 60 % )
+    Total combinational functions : 20,787 / 49,760 ( 42 % )
     Dedicated logic registers : 19,982 / 49,760 ( 40 % )
 Total registers : 19982
 Total pins : 19 / 360 ( 5 % )

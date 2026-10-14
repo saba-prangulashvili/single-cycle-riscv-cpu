@@ -1,5 +1,5 @@
 Analysis & Synthesis report for scc
-Sun Oct  4 18:56:58 2026
+Wed Oct 14 17:07:30 2026
 Quartus Prime Version 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
 
 
@@ -48,13 +48,13 @@ on the Quartus Prime software download page.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sun Oct  4 18:56:57 2026           ;
+; Analysis & Synthesis Status        ; Successful - Wed Oct 14 17:07:29 2026           ;
 ; Quartus Prime Version              ; 25.1std.0 Build 1129 10/21/2025 SC Lite Edition ;
 ; Revision Name                      ; scc                                             ;
 ; Top-level Entity Name              ; top                                             ;
 ; Family                             ; MAX 10                                          ;
-; Total logic elements               ; 39,290                                          ;
-;     Total combinational functions  ; 21,863                                          ;
+; Total logic elements               ; 38,213                                          ;
+;     Total combinational functions  ; 20,786                                          ;
 ;     Dedicated logic registers      ; 19,982                                          ;
 ; Total registers                    ; 19982                                           ;
 ; Total pins                         ; 19                                              ;
@@ -172,33 +172,33 @@ on the Quartus Prime software download page.
 +----------------------------+-------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                      ;
-+----------------------------------+-----------------+------------------------------+---------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                  ; Library ;
-+----------------------------------+-----------------+------------------------------+---------------------------------------------------------------+---------+
-; ../HDL/keyboard/ps2rx.sv         ; yes             ; User SystemVerilog HDL File  ; C:/FPGA/single-cycle-riscv-cpu-os/HDL/keyboard/ps2rx.sv       ;         ;
-; ../HDL/keyboard/keyboard.sv      ; yes             ; User SystemVerilog HDL File  ; C:/FPGA/single-cycle-riscv-cpu-os/HDL/keyboard/keyboard.sv    ;         ;
-; ../HDL/display/textRenderer.sv   ; yes             ; User SystemVerilog HDL File  ; C:/FPGA/single-cycle-riscv-cpu-os/HDL/display/textRenderer.sv ;         ;
-; ../HDL/display/fontMem.sv        ; yes             ; User SystemVerilog HDL File  ; C:/FPGA/single-cycle-riscv-cpu-os/HDL/display/fontMem.sv      ;         ;
-; ../HDL/display/dispMem.sv        ; yes             ; User SystemVerilog HDL File  ; C:/FPGA/single-cycle-riscv-cpu-os/HDL/display/dispMem.sv      ;         ;
-; ../HDL/display/display.sv        ; yes             ; User SystemVerilog HDL File  ; C:/FPGA/single-cycle-riscv-cpu-os/HDL/display/display.sv      ;         ;
-; ../HDL/cpu/regfile.sv            ; yes             ; User SystemVerilog HDL File  ; C:/FPGA/single-cycle-riscv-cpu-os/HDL/cpu/regfile.sv          ;         ;
-; ../HDL/cpu/mux.sv                ; yes             ; User SystemVerilog HDL File  ; C:/FPGA/single-cycle-riscv-cpu-os/HDL/cpu/mux.sv              ;         ;
-; ../HDL/cpu/maindec.sv            ; yes             ; User SystemVerilog HDL File  ; C:/FPGA/single-cycle-riscv-cpu-os/HDL/cpu/maindec.sv          ;         ;
-; ../HDL/cpu/flopr.sv              ; yes             ; User SystemVerilog HDL File  ; C:/FPGA/single-cycle-riscv-cpu-os/HDL/cpu/flopr.sv            ;         ;
-; ../HDL/cpu/extendImm.sv          ; yes             ; User SystemVerilog HDL File  ; C:/FPGA/single-cycle-riscv-cpu-os/HDL/cpu/extendImm.sv        ;         ;
-; ../HDL/cpu/datapath.sv           ; yes             ; User SystemVerilog HDL File  ; C:/FPGA/single-cycle-riscv-cpu-os/HDL/cpu/datapath.sv         ;         ;
-; ../HDL/cpu/cpu.sv                ; yes             ; User SystemVerilog HDL File  ; C:/FPGA/single-cycle-riscv-cpu-os/HDL/cpu/cpu.sv              ;         ;
-; ../HDL/cpu/aludec.sv             ; yes             ; User SystemVerilog HDL File  ; C:/FPGA/single-cycle-riscv-cpu-os/HDL/cpu/aludec.sv           ;         ;
-; ../HDL/cpu/alu.sv                ; yes             ; User SystemVerilog HDL File  ; C:/FPGA/single-cycle-riscv-cpu-os/HDL/cpu/alu.sv              ;         ;
-; ../HDL/top.sv                    ; yes             ; User SystemVerilog HDL File  ; C:/FPGA/single-cycle-riscv-cpu-os/HDL/top.sv                  ;         ;
-; ../HDL/mem_decoder.sv            ; yes             ; User SystemVerilog HDL File  ; C:/FPGA/single-cycle-riscv-cpu-os/HDL/mem_decoder.sv          ;         ;
-; ../HDL/imem.sv                   ; yes             ; User SystemVerilog HDL File  ; C:/FPGA/single-cycle-riscv-cpu-os/HDL/imem.sv                 ;         ;
-; ../HDL/dmem.sv                   ; yes             ; User SystemVerilog HDL File  ; C:/FPGA/single-cycle-riscv-cpu-os/HDL/dmem.sv                 ;         ;
-; fontmem.mem                      ; yes             ; Auto-Found Unspecified File  ; C:/FPGA/single-cycle-riscv-cpu-os/quartus_scc/fontmem.mem     ;         ;
-; main.txt                         ; yes             ; Auto-Found File              ; C:/FPGA/single-cycle-riscv-cpu-os/quartus_scc/main.txt        ;         ;
-+----------------------------------+-----------------+------------------------------+---------------------------------------------------------------+---------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                   ;
++----------------------------------+-----------------+------------------------------+------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                               ; Library ;
++----------------------------------+-----------------+------------------------------+------------------------------------------------------------+---------+
+; ../HDL/keyboard/ps2rx.sv         ; yes             ; User SystemVerilog HDL File  ; C:/FPGA/single-cycle-riscv-cpu/HDL/keyboard/ps2rx.sv       ;         ;
+; ../HDL/keyboard/keyboard.sv      ; yes             ; User SystemVerilog HDL File  ; C:/FPGA/single-cycle-riscv-cpu/HDL/keyboard/keyboard.sv    ;         ;
+; ../HDL/display/textRenderer.sv   ; yes             ; User SystemVerilog HDL File  ; C:/FPGA/single-cycle-riscv-cpu/HDL/display/textRenderer.sv ;         ;
+; ../HDL/display/fontMem.sv        ; yes             ; User SystemVerilog HDL File  ; C:/FPGA/single-cycle-riscv-cpu/HDL/display/fontMem.sv      ;         ;
+; ../HDL/display/dispMem.sv        ; yes             ; User SystemVerilog HDL File  ; C:/FPGA/single-cycle-riscv-cpu/HDL/display/dispMem.sv      ;         ;
+; ../HDL/display/display.sv        ; yes             ; User SystemVerilog HDL File  ; C:/FPGA/single-cycle-riscv-cpu/HDL/display/display.sv      ;         ;
+; ../HDL/cpu/regfile.sv            ; yes             ; User SystemVerilog HDL File  ; C:/FPGA/single-cycle-riscv-cpu/HDL/cpu/regfile.sv          ;         ;
+; ../HDL/cpu/mux.sv                ; yes             ; User SystemVerilog HDL File  ; C:/FPGA/single-cycle-riscv-cpu/HDL/cpu/mux.sv              ;         ;
+; ../HDL/cpu/maindec.sv            ; yes             ; User SystemVerilog HDL File  ; C:/FPGA/single-cycle-riscv-cpu/HDL/cpu/maindec.sv          ;         ;
+; ../HDL/cpu/flopr.sv              ; yes             ; User SystemVerilog HDL File  ; C:/FPGA/single-cycle-riscv-cpu/HDL/cpu/flopr.sv            ;         ;
+; ../HDL/cpu/extendImm.sv          ; yes             ; User SystemVerilog HDL File  ; C:/FPGA/single-cycle-riscv-cpu/HDL/cpu/extendImm.sv        ;         ;
+; ../HDL/cpu/datapath.sv           ; yes             ; User SystemVerilog HDL File  ; C:/FPGA/single-cycle-riscv-cpu/HDL/cpu/datapath.sv         ;         ;
+; ../HDL/cpu/cpu.sv                ; yes             ; User SystemVerilog HDL File  ; C:/FPGA/single-cycle-riscv-cpu/HDL/cpu/cpu.sv              ;         ;
+; ../HDL/cpu/aludec.sv             ; yes             ; User SystemVerilog HDL File  ; C:/FPGA/single-cycle-riscv-cpu/HDL/cpu/aludec.sv           ;         ;
+; ../HDL/cpu/alu.sv                ; yes             ; User SystemVerilog HDL File  ; C:/FPGA/single-cycle-riscv-cpu/HDL/cpu/alu.sv              ;         ;
+; ../HDL/top.sv                    ; yes             ; User SystemVerilog HDL File  ; C:/FPGA/single-cycle-riscv-cpu/HDL/top.sv                  ;         ;
+; ../HDL/mem_decoder.sv            ; yes             ; User SystemVerilog HDL File  ; C:/FPGA/single-cycle-riscv-cpu/HDL/mem_decoder.sv          ;         ;
+; ../HDL/imem.sv                   ; yes             ; User SystemVerilog HDL File  ; C:/FPGA/single-cycle-riscv-cpu/HDL/imem.sv                 ;         ;
+; ../HDL/dmem.sv                   ; yes             ; User SystemVerilog HDL File  ; C:/FPGA/single-cycle-riscv-cpu/HDL/dmem.sv                 ;         ;
+; fontmem.mem                      ; yes             ; Auto-Found Unspecified File  ; C:/FPGA/single-cycle-riscv-cpu/quartus_scc/fontmem.mem     ;         ;
+; main.txt                         ; yes             ; Auto-Found File              ; C:/FPGA/single-cycle-riscv-cpu/quartus_scc/main.txt        ;         ;
++----------------------------------+-----------------+------------------------------+------------------------------------------------------------+---------+
 
 
 +---------------------------------------------------------+
@@ -206,16 +206,16 @@ on the Quartus Prime software download page.
 +---------------------------------------------+-----------+
 ; Resource                                    ; Usage     ;
 +---------------------------------------------+-----------+
-; Estimated Total logic elements              ; 39,290    ;
+; Estimated Total logic elements              ; 38,213    ;
 ;                                             ;           ;
-; Total combinational functions               ; 21863     ;
+; Total combinational functions               ; 20786     ;
 ; Logic element usage by number of LUT inputs ;           ;
-;     -- 4 input functions                    ; 18823     ;
-;     -- 3 input functions                    ; 407       ;
-;     -- <=2 input functions                  ; 2633      ;
+;     -- 4 input functions                    ; 17901     ;
+;     -- 3 input functions                    ; 355       ;
+;     -- <=2 input functions                  ; 2530      ;
 ;                                             ;           ;
 ; Logic elements by mode                      ;           ;
-;     -- normal mode                          ; 21680     ;
+;     -- normal mode                          ; 20603     ;
 ;     -- arithmetic mode                      ; 183       ;
 ;                                             ;           ;
 ; Total registers                             ; 19982     ;
@@ -228,8 +228,8 @@ on the Quartus Prime software download page.
 ;                                             ;           ;
 ; Maximum fan-out node                        ; clk~input ;
 ; Maximum fan-out                             ; 19982     ;
-; Total fan-out                               ; 139424    ;
-; Average fan-out                             ; 3.33      ;
+; Total fan-out                               ; 135374    ;
+; Average fan-out                             ; 3.32      ;
 +---------------------------------------------+-----------+
 
 
@@ -238,27 +238,27 @@ on the Quartus Prime software download page.
 +----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+----------------------------------------------+--------------+--------------+
 ; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; ADC blocks ; Full Hierarchy Name                          ; Entity Name  ; Library Name ;
 +----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+----------------------------------------------+--------------+--------------+
-; |top                       ; 21863 (4)           ; 19982 (2)                 ; 0           ; 0          ; 0            ; 0       ; 0         ; 19   ; 0            ; 0          ; |top                                         ; top          ; work         ;
-;    |cpu:cpu|               ; 1840 (4)            ; 1056 (0)                  ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|cpu:cpu                                 ; cpu          ; work         ;
-;       |aludec:ad|          ; 3 (3)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|cpu:cpu|aludec:ad                       ; aludec       ; work         ;
-;       |datapath:dp|        ; 1814 (62)           ; 1056 (0)                  ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|cpu:cpu|datapath:dp                     ; datapath     ; work         ;
+; |top                       ; 20786 (4)           ; 19982 (2)                 ; 0           ; 0          ; 0            ; 0       ; 0         ; 19   ; 0            ; 0          ; |top                                         ; top          ; work         ;
+;    |cpu:cpu|               ; 1854 (3)            ; 1056 (0)                  ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|cpu:cpu                                 ; cpu          ; work         ;
+;       |aludec:ad|          ; 7 (7)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|cpu:cpu|aludec:ad                       ; aludec       ; work         ;
+;       |datapath:dp|        ; 1824 (62)           ; 1056 (0)                  ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|cpu:cpu|datapath:dp                     ; datapath     ; work         ;
 ;          |alu:alu|         ; 196 (196)           ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|cpu:cpu|datapath:dp|alu:alu             ; alu          ; work         ;
-;          |extendImm:exim|  ; 15 (15)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|cpu:cpu|datapath:dp|extendImm:exim      ; extendImm    ; work         ;
+;          |extendImm:exim|  ; 27 (27)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|cpu:cpu|datapath:dp|extendImm:exim      ; extendImm    ; work         ;
 ;          |flopr:pc_reg|    ; 30 (30)             ; 32 (32)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|cpu:cpu|datapath:dp|flopr:pc_reg        ; flopr        ; work         ;
-;          |mux2:m1|         ; 34 (34)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|cpu:cpu|datapath:dp|mux2:m1             ; mux2         ; work         ;
+;          |mux2:m1|         ; 32 (32)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|cpu:cpu|datapath:dp|mux2:m1             ; mux2         ; work         ;
 ;          |mux3:pc_mux|     ; 3 (3)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|cpu:cpu|datapath:dp|mux3:pc_mux         ; mux3         ; work         ;
-;          |mux3:result_mux| ; 78 (78)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|cpu:cpu|datapath:dp|mux3:result_mux     ; mux3         ; work         ;
-;          |regfile:rf|      ; 1396 (1396)         ; 1024 (1024)               ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|cpu:cpu|datapath:dp|regfile:rf          ; regfile      ; work         ;
-;       |maindec:md|         ; 19 (19)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|cpu:cpu|maindec:md                      ; maindec      ; work         ;
-;    |display:disp|          ; 17137 (46)          ; 16848 (27)                ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|display:disp                            ; display      ; work         ;
-;       |dispMem:dm|         ; 16051 (16051)       ; 16807 (16807)             ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|display:disp|dispMem:dm                 ; dispMem      ; work         ;
+;          |mux3:result_mux| ; 77 (77)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|cpu:cpu|datapath:dp|mux3:result_mux     ; mux3         ; work         ;
+;          |regfile:rf|      ; 1397 (1397)         ; 1024 (1024)               ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|cpu:cpu|datapath:dp|regfile:rf          ; regfile      ; work         ;
+;       |maindec:md|         ; 20 (20)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|cpu:cpu|maindec:md                      ; maindec      ; work         ;
+;    |display:disp|          ; 17135 (46)          ; 16848 (27)                ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|display:disp                            ; display      ; work         ;
+;       |dispMem:dm|         ; 16049 (16049)       ; 16807 (16807)             ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|display:disp|dispMem:dm                 ; dispMem      ; work         ;
 ;       |textRenderer:tr|    ; 1040 (18)           ; 14 (6)                    ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|display:disp|textRenderer:tr            ; textRenderer ; work         ;
 ;          |fontMem:fm|      ; 1022 (1022)         ; 8 (8)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|display:disp|textRenderer:tr|fontMem:fm ; fontMem      ; work         ;
-;    |dmem:dmem|             ; 1428 (1428)         ; 2048 (2048)               ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|dmem:dmem                               ; dmem         ; work         ;
-;    |imem:imem|             ; 1342 (1342)         ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|imem:imem                               ; imem         ; work         ;
-;    |keyboard:kb|           ; 91 (77)             ; 28 (9)                    ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|keyboard:kb                             ; keyboard     ; work         ;
+;    |dmem:dmem|             ; 1424 (1424)         ; 2048 (2048)               ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|dmem:dmem                               ; dmem         ; work         ;
+;    |imem:imem|             ; 248 (248)           ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|imem:imem                               ; imem         ; work         ;
+;    |keyboard:kb|           ; 90 (76)             ; 28 (9)                    ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|keyboard:kb                             ; keyboard     ; work         ;
 ;       |ps2rx:rx|           ; 14 (14)             ; 19 (19)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|keyboard:kb|ps2rx:rx                    ; ps2rx        ; work         ;
-;    |mem_decoder:md|        ; 21 (21)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|mem_decoder:md                          ; mem_decoder  ; work         ;
+;    |mem_decoder:md|        ; 31 (31)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |top|mem_decoder:md                          ; mem_decoder  ; work         ;
 +----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+----------------------------------------------+--------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -2744,18 +2744,18 @@ Encoding Type:  One-Hot
 ;     ENA               ; 19919                       ;
 ;     ENA CLR           ; 19                          ;
 ;     plain             ; 3                           ;
-; cycloneiii_lcell_comb ; 21863                       ;
+; cycloneiii_lcell_comb ; 20786                       ;
 ;     arith             ; 183                         ;
 ;         2 data inputs ; 52                          ;
 ;         3 data inputs ; 131                         ;
-;     normal            ; 21680                       ;
+;     normal            ; 20603                       ;
 ;         1 data inputs ; 2410                        ;
-;         2 data inputs ; 171                         ;
-;         3 data inputs ; 276                         ;
-;         4 data inputs ; 18823                       ;
+;         2 data inputs ; 68                          ;
+;         3 data inputs ; 224                         ;
+;         4 data inputs ; 17901                       ;
 ;                       ;                             ;
-; Max LUT depth         ; 27.10                       ;
-; Average LUT depth     ; 12.20                       ;
+; Max LUT depth         ; 24.10                       ;
+; Average LUT depth     ; 11.23                       ;
 +-----------------------+-----------------------------+
 
 
@@ -2764,7 +2764,7 @@ Encoding Type:  One-Hot
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:01:07     ;
+; Top            ; 00:01:29     ;
 +----------------+--------------+
 
 
@@ -2774,107 +2774,107 @@ Encoding Type:  One-Hot
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
-    Info: Processing started: Sun Oct  4 18:55:39 2026
+    Info: Processing started: Wed Oct 14 17:05:38 2026
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off scc -c scc
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
-Info (12021): Found 1 design units, including 1 entities, in source file /fpga/single-cycle-riscv-cpu-os/hdl/keyboard/ps2rx.sv
-    Info (12023): Found entity 1: ps2rx File: C:/FPGA/single-cycle-riscv-cpu-os/HDL/keyboard/ps2rx.sv Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file /fpga/single-cycle-riscv-cpu-os/hdl/keyboard/keyboard.sv
-    Info (12023): Found entity 1: keyboard File: C:/FPGA/single-cycle-riscv-cpu-os/HDL/keyboard/keyboard.sv Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file /fpga/single-cycle-riscv-cpu-os/hdl/display/textrenderer.sv
-    Info (12023): Found entity 1: textRenderer File: C:/FPGA/single-cycle-riscv-cpu-os/HDL/display/textRenderer.sv Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file /fpga/single-cycle-riscv-cpu-os/hdl/display/fontmem.sv
-    Info (12023): Found entity 1: fontMem File: C:/FPGA/single-cycle-riscv-cpu-os/HDL/display/fontMem.sv Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file /fpga/single-cycle-riscv-cpu-os/hdl/display/dispmem.sv
-    Info (12023): Found entity 1: dispMem File: C:/FPGA/single-cycle-riscv-cpu-os/HDL/display/dispMem.sv Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file /fpga/single-cycle-riscv-cpu-os/hdl/display/display.sv
-    Info (12023): Found entity 1: display File: C:/FPGA/single-cycle-riscv-cpu-os/HDL/display/display.sv Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file /fpga/single-cycle-riscv-cpu-os/hdl/cpu/regfile.sv
-    Info (12023): Found entity 1: regfile File: C:/FPGA/single-cycle-riscv-cpu-os/HDL/cpu/regfile.sv Line: 1
-Info (12021): Found 2 design units, including 2 entities, in source file /fpga/single-cycle-riscv-cpu-os/hdl/cpu/mux.sv
-    Info (12023): Found entity 1: mux2 File: C:/FPGA/single-cycle-riscv-cpu-os/HDL/cpu/mux.sv Line: 1
-    Info (12023): Found entity 2: mux3 File: C:/FPGA/single-cycle-riscv-cpu-os/HDL/cpu/mux.sv Line: 13
-Info (12021): Found 1 design units, including 1 entities, in source file /fpga/single-cycle-riscv-cpu-os/hdl/cpu/maindec.sv
-    Info (12023): Found entity 1: maindec File: C:/FPGA/single-cycle-riscv-cpu-os/HDL/cpu/maindec.sv Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file /fpga/single-cycle-riscv-cpu-os/hdl/cpu/flopr.sv
-    Info (12023): Found entity 1: flopr File: C:/FPGA/single-cycle-riscv-cpu-os/HDL/cpu/flopr.sv Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file /fpga/single-cycle-riscv-cpu-os/hdl/cpu/extendimm.sv
-    Info (12023): Found entity 1: extendImm File: C:/FPGA/single-cycle-riscv-cpu-os/HDL/cpu/extendImm.sv Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file /fpga/single-cycle-riscv-cpu-os/hdl/cpu/datapath.sv
-    Info (12023): Found entity 1: datapath File: C:/FPGA/single-cycle-riscv-cpu-os/HDL/cpu/datapath.sv Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file /fpga/single-cycle-riscv-cpu-os/hdl/cpu/cpu.sv
-    Info (12023): Found entity 1: cpu File: C:/FPGA/single-cycle-riscv-cpu-os/HDL/cpu/cpu.sv Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file /fpga/single-cycle-riscv-cpu-os/hdl/cpu/aludec.sv
-    Info (12023): Found entity 1: aludec File: C:/FPGA/single-cycle-riscv-cpu-os/HDL/cpu/aludec.sv Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file /fpga/single-cycle-riscv-cpu-os/hdl/cpu/alu.sv
-    Info (12023): Found entity 1: alu File: C:/FPGA/single-cycle-riscv-cpu-os/HDL/cpu/alu.sv Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file /fpga/single-cycle-riscv-cpu-os/hdl/top.sv
-    Info (12023): Found entity 1: top File: C:/FPGA/single-cycle-riscv-cpu-os/HDL/top.sv Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file /fpga/single-cycle-riscv-cpu-os/hdl/mem_decoder.sv
-    Info (12023): Found entity 1: mem_decoder File: C:/FPGA/single-cycle-riscv-cpu-os/HDL/mem_decoder.sv Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file /fpga/single-cycle-riscv-cpu-os/hdl/imem.sv
-    Info (12023): Found entity 1: imem File: C:/FPGA/single-cycle-riscv-cpu-os/HDL/imem.sv Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file /fpga/single-cycle-riscv-cpu-os/hdl/dmem.sv
-    Info (12023): Found entity 1: dmem File: C:/FPGA/single-cycle-riscv-cpu-os/HDL/dmem.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /fpga/single-cycle-riscv-cpu/hdl/keyboard/ps2rx.sv
+    Info (12023): Found entity 1: ps2rx File: C:/FPGA/single-cycle-riscv-cpu/HDL/keyboard/ps2rx.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /fpga/single-cycle-riscv-cpu/hdl/keyboard/keyboard.sv
+    Info (12023): Found entity 1: keyboard File: C:/FPGA/single-cycle-riscv-cpu/HDL/keyboard/keyboard.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /fpga/single-cycle-riscv-cpu/hdl/display/textrenderer.sv
+    Info (12023): Found entity 1: textRenderer File: C:/FPGA/single-cycle-riscv-cpu/HDL/display/textRenderer.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /fpga/single-cycle-riscv-cpu/hdl/display/fontmem.sv
+    Info (12023): Found entity 1: fontMem File: C:/FPGA/single-cycle-riscv-cpu/HDL/display/fontMem.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /fpga/single-cycle-riscv-cpu/hdl/display/dispmem.sv
+    Info (12023): Found entity 1: dispMem File: C:/FPGA/single-cycle-riscv-cpu/HDL/display/dispMem.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /fpga/single-cycle-riscv-cpu/hdl/display/display.sv
+    Info (12023): Found entity 1: display File: C:/FPGA/single-cycle-riscv-cpu/HDL/display/display.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /fpga/single-cycle-riscv-cpu/hdl/cpu/regfile.sv
+    Info (12023): Found entity 1: regfile File: C:/FPGA/single-cycle-riscv-cpu/HDL/cpu/regfile.sv Line: 1
+Info (12021): Found 2 design units, including 2 entities, in source file /fpga/single-cycle-riscv-cpu/hdl/cpu/mux.sv
+    Info (12023): Found entity 1: mux2 File: C:/FPGA/single-cycle-riscv-cpu/HDL/cpu/mux.sv Line: 1
+    Info (12023): Found entity 2: mux3 File: C:/FPGA/single-cycle-riscv-cpu/HDL/cpu/mux.sv Line: 13
+Info (12021): Found 1 design units, including 1 entities, in source file /fpga/single-cycle-riscv-cpu/hdl/cpu/maindec.sv
+    Info (12023): Found entity 1: maindec File: C:/FPGA/single-cycle-riscv-cpu/HDL/cpu/maindec.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /fpga/single-cycle-riscv-cpu/hdl/cpu/flopr.sv
+    Info (12023): Found entity 1: flopr File: C:/FPGA/single-cycle-riscv-cpu/HDL/cpu/flopr.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /fpga/single-cycle-riscv-cpu/hdl/cpu/extendimm.sv
+    Info (12023): Found entity 1: extendImm File: C:/FPGA/single-cycle-riscv-cpu/HDL/cpu/extendImm.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /fpga/single-cycle-riscv-cpu/hdl/cpu/datapath.sv
+    Info (12023): Found entity 1: datapath File: C:/FPGA/single-cycle-riscv-cpu/HDL/cpu/datapath.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /fpga/single-cycle-riscv-cpu/hdl/cpu/cpu.sv
+    Info (12023): Found entity 1: cpu File: C:/FPGA/single-cycle-riscv-cpu/HDL/cpu/cpu.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /fpga/single-cycle-riscv-cpu/hdl/cpu/aludec.sv
+    Info (12023): Found entity 1: aludec File: C:/FPGA/single-cycle-riscv-cpu/HDL/cpu/aludec.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /fpga/single-cycle-riscv-cpu/hdl/cpu/alu.sv
+    Info (12023): Found entity 1: alu File: C:/FPGA/single-cycle-riscv-cpu/HDL/cpu/alu.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /fpga/single-cycle-riscv-cpu/hdl/top.sv
+    Info (12023): Found entity 1: top File: C:/FPGA/single-cycle-riscv-cpu/HDL/top.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /fpga/single-cycle-riscv-cpu/hdl/mem_decoder.sv
+    Info (12023): Found entity 1: mem_decoder File: C:/FPGA/single-cycle-riscv-cpu/HDL/mem_decoder.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /fpga/single-cycle-riscv-cpu/hdl/imem.sv
+    Info (12023): Found entity 1: imem File: C:/FPGA/single-cycle-riscv-cpu/HDL/imem.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /fpga/single-cycle-riscv-cpu/hdl/dmem.sv
+    Info (12023): Found entity 1: dmem File: C:/FPGA/single-cycle-riscv-cpu/HDL/dmem.sv Line: 1
 Info (12127): Elaborating entity "top" for the top level hierarchy
-Info (12128): Elaborating entity "imem" for hierarchy "imem:imem" File: C:/FPGA/single-cycle-riscv-cpu-os/HDL/top.sv Line: 30
-Warning (10030): Net "mem.data_a" at imem.sv(5) has no driver or initial value, using a default initial value '0' File: C:/FPGA/single-cycle-riscv-cpu-os/HDL/imem.sv Line: 5
-Warning (10030): Net "mem.waddr_a" at imem.sv(5) has no driver or initial value, using a default initial value '0' File: C:/FPGA/single-cycle-riscv-cpu-os/HDL/imem.sv Line: 5
-Warning (10030): Net "mem.we_a" at imem.sv(5) has no driver or initial value, using a default initial value '0' File: C:/FPGA/single-cycle-riscv-cpu-os/HDL/imem.sv Line: 5
-Info (12128): Elaborating entity "cpu" for hierarchy "cpu:cpu" File: C:/FPGA/single-cycle-riscv-cpu-os/HDL/top.sv Line: 48
-Info (12128): Elaborating entity "maindec" for hierarchy "cpu:cpu|maindec:md" File: C:/FPGA/single-cycle-riscv-cpu-os/HDL/cpu/cpu.sv Line: 30
-Info (12128): Elaborating entity "aludec" for hierarchy "cpu:cpu|aludec:ad" File: C:/FPGA/single-cycle-riscv-cpu-os/HDL/cpu/cpu.sv Line: 46
-Info (12128): Elaborating entity "datapath" for hierarchy "cpu:cpu|datapath:dp" File: C:/FPGA/single-cycle-riscv-cpu-os/HDL/cpu/cpu.sv Line: 68
-Info (12128): Elaborating entity "extendImm" for hierarchy "cpu:cpu|datapath:dp|extendImm:exim" File: C:/FPGA/single-cycle-riscv-cpu-os/HDL/cpu/datapath.sv Line: 28
-Info (12128): Elaborating entity "regfile" for hierarchy "cpu:cpu|datapath:dp|regfile:rf" File: C:/FPGA/single-cycle-riscv-cpu-os/HDL/cpu/datapath.sv Line: 41
-Info (12128): Elaborating entity "mux2" for hierarchy "cpu:cpu|datapath:dp|mux2:m1" File: C:/FPGA/single-cycle-riscv-cpu-os/HDL/cpu/datapath.sv Line: 50
-Info (12128): Elaborating entity "alu" for hierarchy "cpu:cpu|datapath:dp|alu:alu" File: C:/FPGA/single-cycle-riscv-cpu-os/HDL/cpu/datapath.sv Line: 59
-Info (12128): Elaborating entity "flopr" for hierarchy "cpu:cpu|datapath:dp|flopr:pc_reg" File: C:/FPGA/single-cycle-riscv-cpu-os/HDL/cpu/datapath.sv Line: 68
-Info (12128): Elaborating entity "mux3" for hierarchy "cpu:cpu|datapath:dp|mux3:pc_mux" File: C:/FPGA/single-cycle-riscv-cpu-os/HDL/cpu/datapath.sv Line: 83
-Info (12128): Elaborating entity "dmem" for hierarchy "dmem:dmem" File: C:/FPGA/single-cycle-riscv-cpu-os/HDL/top.sv Line: 58
-Info (12128): Elaborating entity "mem_decoder" for hierarchy "mem_decoder:md" File: C:/FPGA/single-cycle-riscv-cpu-os/HDL/top.sv Line: 79
-Info (12128): Elaborating entity "keyboard" for hierarchy "keyboard:kb" File: C:/FPGA/single-cycle-riscv-cpu-os/HDL/top.sv Line: 94
-Info (12128): Elaborating entity "ps2rx" for hierarchy "keyboard:kb|ps2rx:rx" File: C:/FPGA/single-cycle-riscv-cpu-os/HDL/keyboard/keyboard.sv Line: 24
-Warning (10230): Verilog HDL assignment warning at ps2rx.sv(59): truncated value with size 32 to match size of target (4) File: C:/FPGA/single-cycle-riscv-cpu-os/HDL/keyboard/ps2rx.sv Line: 59
-Info (12128): Elaborating entity "display" for hierarchy "display:disp" File: C:/FPGA/single-cycle-riscv-cpu-os/HDL/top.sv Line: 109
-Info (12128): Elaborating entity "dispMem" for hierarchy "display:disp|dispMem:dm" File: C:/FPGA/single-cycle-riscv-cpu-os/HDL/display/display.sv Line: 78
-Info (12128): Elaborating entity "textRenderer" for hierarchy "display:disp|textRenderer:tr" File: C:/FPGA/single-cycle-riscv-cpu-os/HDL/display/display.sv Line: 91
-Warning (10230): Verilog HDL assignment warning at textRenderer.sv(15): truncated value with size 32 to match size of target (12) File: C:/FPGA/single-cycle-riscv-cpu-os/HDL/display/textRenderer.sv Line: 15
-Info (12128): Elaborating entity "fontMem" for hierarchy "display:disp|textRenderer:tr|fontMem:fm" File: C:/FPGA/single-cycle-riscv-cpu-os/HDL/display/textRenderer.sv Line: 27
-Warning (10030): Net "mem.data_a" at fontMem.sv(11) has no driver or initial value, using a default initial value '0' File: C:/FPGA/single-cycle-riscv-cpu-os/HDL/display/fontMem.sv Line: 11
-Warning (10030): Net "mem.waddr_a" at fontMem.sv(11) has no driver or initial value, using a default initial value '0' File: C:/FPGA/single-cycle-riscv-cpu-os/HDL/display/fontMem.sv Line: 11
-Warning (10030): Net "mem.we_a" at fontMem.sv(11) has no driver or initial value, using a default initial value '0' File: C:/FPGA/single-cycle-riscv-cpu-os/HDL/display/fontMem.sv Line: 11
-Critical Warning (127005): Memory depth (4096) in the design file differs from memory depth (2400) in the Memory Initialization File "C:/FPGA/single-cycle-riscv-cpu-os/quartus_scc/db/scc.ram0_dispMem_fc3c8ee6.hdl.mif" -- setting initial value for remaining addresses to 0
+Info (12128): Elaborating entity "imem" for hierarchy "imem:imem" File: C:/FPGA/single-cycle-riscv-cpu/HDL/top.sv Line: 30
+Warning (10030): Net "mem.data_a" at imem.sv(5) has no driver or initial value, using a default initial value '0' File: C:/FPGA/single-cycle-riscv-cpu/HDL/imem.sv Line: 5
+Warning (10030): Net "mem.waddr_a" at imem.sv(5) has no driver or initial value, using a default initial value '0' File: C:/FPGA/single-cycle-riscv-cpu/HDL/imem.sv Line: 5
+Warning (10030): Net "mem.we_a" at imem.sv(5) has no driver or initial value, using a default initial value '0' File: C:/FPGA/single-cycle-riscv-cpu/HDL/imem.sv Line: 5
+Info (12128): Elaborating entity "cpu" for hierarchy "cpu:cpu" File: C:/FPGA/single-cycle-riscv-cpu/HDL/top.sv Line: 48
+Info (12128): Elaborating entity "maindec" for hierarchy "cpu:cpu|maindec:md" File: C:/FPGA/single-cycle-riscv-cpu/HDL/cpu/cpu.sv Line: 30
+Info (12128): Elaborating entity "aludec" for hierarchy "cpu:cpu|aludec:ad" File: C:/FPGA/single-cycle-riscv-cpu/HDL/cpu/cpu.sv Line: 46
+Info (12128): Elaborating entity "datapath" for hierarchy "cpu:cpu|datapath:dp" File: C:/FPGA/single-cycle-riscv-cpu/HDL/cpu/cpu.sv Line: 68
+Info (12128): Elaborating entity "extendImm" for hierarchy "cpu:cpu|datapath:dp|extendImm:exim" File: C:/FPGA/single-cycle-riscv-cpu/HDL/cpu/datapath.sv Line: 28
+Info (12128): Elaborating entity "regfile" for hierarchy "cpu:cpu|datapath:dp|regfile:rf" File: C:/FPGA/single-cycle-riscv-cpu/HDL/cpu/datapath.sv Line: 41
+Info (12128): Elaborating entity "mux2" for hierarchy "cpu:cpu|datapath:dp|mux2:m1" File: C:/FPGA/single-cycle-riscv-cpu/HDL/cpu/datapath.sv Line: 50
+Info (12128): Elaborating entity "alu" for hierarchy "cpu:cpu|datapath:dp|alu:alu" File: C:/FPGA/single-cycle-riscv-cpu/HDL/cpu/datapath.sv Line: 59
+Info (12128): Elaborating entity "flopr" for hierarchy "cpu:cpu|datapath:dp|flopr:pc_reg" File: C:/FPGA/single-cycle-riscv-cpu/HDL/cpu/datapath.sv Line: 68
+Info (12128): Elaborating entity "mux3" for hierarchy "cpu:cpu|datapath:dp|mux3:pc_mux" File: C:/FPGA/single-cycle-riscv-cpu/HDL/cpu/datapath.sv Line: 83
+Info (12128): Elaborating entity "dmem" for hierarchy "dmem:dmem" File: C:/FPGA/single-cycle-riscv-cpu/HDL/top.sv Line: 58
+Info (12128): Elaborating entity "mem_decoder" for hierarchy "mem_decoder:md" File: C:/FPGA/single-cycle-riscv-cpu/HDL/top.sv Line: 79
+Info (12128): Elaborating entity "keyboard" for hierarchy "keyboard:kb" File: C:/FPGA/single-cycle-riscv-cpu/HDL/top.sv Line: 94
+Info (12128): Elaborating entity "ps2rx" for hierarchy "keyboard:kb|ps2rx:rx" File: C:/FPGA/single-cycle-riscv-cpu/HDL/keyboard/keyboard.sv Line: 24
+Warning (10230): Verilog HDL assignment warning at ps2rx.sv(59): truncated value with size 32 to match size of target (4) File: C:/FPGA/single-cycle-riscv-cpu/HDL/keyboard/ps2rx.sv Line: 59
+Info (12128): Elaborating entity "display" for hierarchy "display:disp" File: C:/FPGA/single-cycle-riscv-cpu/HDL/top.sv Line: 109
+Info (12128): Elaborating entity "dispMem" for hierarchy "display:disp|dispMem:dm" File: C:/FPGA/single-cycle-riscv-cpu/HDL/display/display.sv Line: 78
+Info (12128): Elaborating entity "textRenderer" for hierarchy "display:disp|textRenderer:tr" File: C:/FPGA/single-cycle-riscv-cpu/HDL/display/display.sv Line: 91
+Warning (10230): Verilog HDL assignment warning at textRenderer.sv(15): truncated value with size 32 to match size of target (12) File: C:/FPGA/single-cycle-riscv-cpu/HDL/display/textRenderer.sv Line: 15
+Info (12128): Elaborating entity "fontMem" for hierarchy "display:disp|textRenderer:tr|fontMem:fm" File: C:/FPGA/single-cycle-riscv-cpu/HDL/display/textRenderer.sv Line: 27
+Warning (10030): Net "mem.data_a" at fontMem.sv(11) has no driver or initial value, using a default initial value '0' File: C:/FPGA/single-cycle-riscv-cpu/HDL/display/fontMem.sv Line: 11
+Warning (10030): Net "mem.waddr_a" at fontMem.sv(11) has no driver or initial value, using a default initial value '0' File: C:/FPGA/single-cycle-riscv-cpu/HDL/display/fontMem.sv Line: 11
+Warning (10030): Net "mem.we_a" at fontMem.sv(11) has no driver or initial value, using a default initial value '0' File: C:/FPGA/single-cycle-riscv-cpu/HDL/display/fontMem.sv Line: 11
+Critical Warning (127005): Memory depth (4096) in the design file differs from memory depth (2400) in the Memory Initialization File "C:/FPGA/single-cycle-riscv-cpu/quartus_scc/db/scc.ram0_dispMem_fc3c8ee6.hdl.mif" -- setting initial value for remaining addresses to 0
 Info (276014): Found 5 instances of uninferred RAM logic
-    Info (276013): RAM logic "display:disp|textRenderer:tr|fontMem:fm|mem" is uninferred because MIF is not supported for the selected family File: C:/FPGA/single-cycle-riscv-cpu-os/HDL/display/fontMem.sv Line: 11
-    Info (276013): RAM logic "display:disp|dispMem:dm|mem" is uninferred because MIF is not supported for the selected family File: C:/FPGA/single-cycle-riscv-cpu-os/HDL/display/dispMem.sv Line: 13
-    Info (276007): RAM logic "cpu:cpu|datapath:dp|regfile:rf|regs" is uninferred due to asynchronous read logic File: C:/FPGA/single-cycle-riscv-cpu-os/HDL/cpu/regfile.sv Line: 11
-    Info (276013): RAM logic "imem:imem|mem" is uninferred because MIF is not supported for the selected family File: C:/FPGA/single-cycle-riscv-cpu-os/HDL/imem.sv Line: 5
-    Info (276007): RAM logic "dmem:dmem|mem" is uninferred due to asynchronous read logic File: C:/FPGA/single-cycle-riscv-cpu-os/HDL/dmem.sv Line: 9
-Info (13000): Registers with preset signals will power-up high File: C:/FPGA/single-cycle-riscv-cpu-os/HDL/keyboard/ps2rx.sv Line: 23
+    Info (276013): RAM logic "display:disp|textRenderer:tr|fontMem:fm|mem" is uninferred because MIF is not supported for the selected family File: C:/FPGA/single-cycle-riscv-cpu/HDL/display/fontMem.sv Line: 11
+    Info (276013): RAM logic "display:disp|dispMem:dm|mem" is uninferred because MIF is not supported for the selected family File: C:/FPGA/single-cycle-riscv-cpu/HDL/display/dispMem.sv Line: 13
+    Info (276007): RAM logic "cpu:cpu|datapath:dp|regfile:rf|regs" is uninferred due to asynchronous read logic File: C:/FPGA/single-cycle-riscv-cpu/HDL/cpu/regfile.sv Line: 11
+    Info (276013): RAM logic "imem:imem|mem" is uninferred because MIF is not supported for the selected family File: C:/FPGA/single-cycle-riscv-cpu/HDL/imem.sv Line: 5
+    Info (276007): RAM logic "dmem:dmem|mem" is uninferred due to asynchronous read logic File: C:/FPGA/single-cycle-riscv-cpu/HDL/dmem.sv Line: 9
+Info (13000): Registers with preset signals will power-up high File: C:/FPGA/single-cycle-riscv-cpu/HDL/keyboard/ps2rx.sv Line: 23
 Info (13003): DEV_CLRn pin will set, and not reset, register with preset signal due to NOT Gate Push-Back
 Info (286030): Timing-Driven Synthesis is running
 Info (17049): 2400 registers lost all their fanouts during netlist optimizations.
-Info (144001): Generated suppressed messages file C:/FPGA/single-cycle-riscv-cpu-os/quartus_scc/output_files/scc.map.smsg
+Info (144001): Generated suppressed messages file C:/FPGA/single-cycle-riscv-cpu/quartus_scc/output_files/scc.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
 Warning (21074): Design contains 1 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "KEY[1]" File: C:/FPGA/single-cycle-riscv-cpu-os/HDL/top.sv Line: 3
-Info (21057): Implemented 39373 device resources after synthesis - the final resource count might be different
+    Warning (15610): No output dependent on input pin "KEY[1]" File: C:/FPGA/single-cycle-riscv-cpu/HDL/top.sv Line: 3
+Info (21057): Implemented 38296 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 5 input pins
     Info (21059): Implemented 14 output pins
-    Info (21061): Implemented 39354 logic cells
+    Info (21061): Implemented 38277 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 12 warnings
-    Info: Peak virtual memory: 5032 megabytes
-    Info: Processing ended: Sun Oct  4 18:56:58 2026
-    Info: Elapsed time: 00:01:19
-    Info: Total CPU time (on all processors): 00:01:30
+    Info: Peak virtual memory: 5043 megabytes
+    Info: Processing ended: Wed Oct 14 17:07:30 2026
+    Info: Elapsed time: 00:01:52
+    Info: Total CPU time (on all processors): 00:02:20
 
 
 +------------------------------------------+
 ; Analysis & Synthesis Suppressed Messages ;
 +------------------------------------------+
-The suppressed messages can be found in C:/FPGA/single-cycle-riscv-cpu-os/quartus_scc/output_files/scc.map.smsg.
+The suppressed messages can be found in C:/FPGA/single-cycle-riscv-cpu/quartus_scc/output_files/scc.map.smsg.
 
 
